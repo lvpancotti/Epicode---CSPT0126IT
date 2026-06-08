@@ -39,7 +39,7 @@ for user in user_list:
             print(f"[+] APERTURA SHELL INTERATTIVA DIRETTA...")
             print("="*50 + "\n")
             
-            # 3. Attivazione sessione interattiva (Come mostrato dal docente)
+            # 3. Attivazione sessione interattiva 
             chan = ssh.invoke_shell()
             old_tty = termios.tcgetattr(sys.stdin)
             try:
